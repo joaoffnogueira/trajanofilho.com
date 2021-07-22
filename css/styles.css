@@ -20,7 +20,6 @@ h3{font-size:35px}
 h4{font-size:30px}
 h5{font-size:25px}
 h6{font-size:18px}
-p{line-height:1.8;margin:0;font-size:16px}
 span{display:inline-block}
 .v-middle{position:absolute;width:100%;top:50%;left:0;-webkit-transform:translate(0,-50%);-moz-transform:translate(0,-50%);-ms-transform:translate(0,-50%);-o-transform:translate(0,-50%);transform:translate(0,-50%)}
 .clear-fix{clear:both}
@@ -83,10 +82,10 @@ span{display:inline-block}
 20%{-webkit-transform:scaleY(1)}
 }@keyframes sk-stretchdelay{0%,100%,40%{transform:scaleY(.4);-webkit-transform:scaleY(.4)}
 20%{transform:scaleY(1);-webkit-transform:scaleY(1)}
-}body{font-family:var(--text-font);overflow-x:hidden!important;position:relative}
+}body{font-family:var(--title-font);overflow-x:hidden!important;position:relative}
+p{line-height:1.8;margin:0;font-size:16px;color:var(--secondary-color);font-family: var(--text-font);}
 .section-padding{padding:80px 0}
 .section-heading h4{font-weight:100}
-p{color:#aaa}
 a,a:focus,a:hover{color:inherit}
 .tc-title{position:relative;font-weight:400;margin-bottom:30px;padding-bottom:20px;letter-spacing:2px;display:inline-block;border-bottom:1px solid #ccc;text-transform:uppercase}
 .tc-title:after{content:'';width:70px;height:1px;background:#c49b66;position:absolute;bottom:-1px;left:0}
@@ -94,8 +93,8 @@ a,a:focus,a:hover{color:inherit}
 .hero .tc-title{width:100%}
 .tc_name_title h4{text-transform:uppercase}
 .tc_name_title{padding:0;margin-bottom:15px}
-.social-icon span{transition:all .5s}
-.social-icon span:hover{background:#c49b66!important;border-color:#c49b66!important;color:#fff!important}
+.social-icon span{transition:all .5s; color:var(--primary-color)}
+.social-icon span:hover{background:var(--primary-color)!important;border-color:var(--secondary-color)!important;color:#fff!important}
 .profile-btns{float:right}
 a.about-button{display:inline-block;padding:12px 10px;background:#333;color:#fff;text-transform:uppercase;border-radius:40px;width:140px;text-align:center;font-size:12px;margin-right:10px;-webkit-transition:.4s;font-weight:700;transition:.4s;font-family:Open Sans}
 a.about-button:hover{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);-webkit-transition:.4s;transition:.4s}
@@ -150,11 +149,11 @@ h1.navbar-brand{transition:.2s}
 100%{top:50%}
 }.hero .social-icon span{width:40px;height:40px;line-height:40px;text-align:center;border:1px solid #eee}
 .hero .skills{margin:80px 0;margin-top:-30px;margin-bottom:0}
-.hero-img img{border-radius:270px;width:440px;height:440px;object-fit:cover;box-shadow:0 0 0 5px #c49b66;border:5px solid #fff}
+.hero-img img{border-radius:270px;width:440px;height:440px;object-fit:cover;box-shadow:0 0 0 5px var(--primary-color);border:5px solid #fff}
 .skill-items .skill-title span{font-size:35px;color:#c49b66;margin-bottom:30px}
 .skills .skills-progress{width:100%;height:2px;background:#eee;margin:15px 0 0}
 .skills-progress span{width:0;height:100%;background:#c49b66;display:block}
-.numbers{padding:100px 0;background-color:rgba(0,0,0,.8)}
+.numbers{padding:100px 0;background-color:var(--light-background)}
 .numbers .num-items span{font-size:40px;color:#c49b66}
 .numbers .num-items p{font-size:20px;font-weight:900;margin:20px auto}
 .numbers .num-items h6{color:#fff}
@@ -181,7 +180,7 @@ span.icon-quote:before{content:"\f10e";color:#fff;font-family:FontAwesome;backgr
 #work .filtering a:after{content:"-";color:#111;position:absolute;right:0;top:0}
 #work .filtering a:last-child:after{content:" "}
 .work.section-padding{padding:35px 0}
-.hire{background-color:rgba(0,0,0,.8)}
+.hire{background-color:var(--light-background)}
 .hire h3{color:#fff;letter-spacing:2px;font-weight:100;margin-bottom:30px}
 .hire button{padding:7px 25px;color:#fff;font-size:18px;letter-spacing:1px;background:#c49b66;border:1px solid #c49b66;transition:all .5s}
 .hire button:hover{background:0}
@@ -283,7 +282,7 @@ p#ContactForm1_contact-form-error-message{position:absolute;padding:1px 20px;bor
 p#ContactForm1_contact-form-error-message img,p#ContactForm1_contact-form-success-message img{width:12px;margin-top:-3px}
 form#contactForm{position:relative}
 p#ContactForm1_contact-form-success-message{position:absolute;padding:1px 20px;border-radius:4px;left:0;color:#c49b66;text-transform:uppercase;width:100%}
-.contactFooter{background-color:#222;padding:35px 0 30px;color:#fdfdfd}
+.contactFooter{background-color:var(--light-background);padding:35px 0 30px;color:#fdfdfd}
 .footerLeft{font-size:14px;color:#777;font-family:Open Sans;text-transform:capitalize;font-weight:100;text-align:center}
 .footerLeft a{color:#fff;font-weight:500;font-family:Open Sans}
 .home-link{display:none}
