@@ -159,6 +159,7 @@ h1.navbar-brand{transition:.2s}
 .numbers .num-items p{font-size:20px;font-weight:900;margin:20px auto}
 .numbers .num-items h6{color:#fff}
 .services .services-items{overflow:hidden}
+.services-items{display: grid; grid: 100% / auto auto auto;}
 .services .services-items:first-child{border-bottom:1px solid #eee}
 .services-items .item{padding:40px}
 .services-items .bord{border-right:1px solid #eee;border-left:1px solid #eee}
