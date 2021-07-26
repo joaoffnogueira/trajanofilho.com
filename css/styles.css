@@ -151,7 +151,7 @@ p {
 }
 
 .section-padding {
-    padding: 80px 0
+    padding: 40px 0
 }
 
 .section-heading h4 {
@@ -252,32 +252,19 @@ a.about-button:hover {
     float: left
 }
 
-.navbar-default {
+.navbar-inverse {
     padding: 20px 0 30px;
     background: 0;
     border: 0;
     border-radius: 0;
     z-index: 9;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%
 }
 
-.nav-scroll {
-    background: #111;
-    height: 80px;
-    line-height: 80px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: all .5s;
-    z-index: 99
-}
-
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
     font-weight: 600;
     font-size: 2.5vw;
     color: var(--primary-color)
@@ -291,8 +278,8 @@ a.about-button:hover {
     text-transform: uppercase
 }
 
-.nav-scroll .navbar-brand {
-    font-size: 40em !important;
+.navbar-brand {
+    font-size: 40em;
     padding: 5px 0
 }
 
@@ -300,17 +287,17 @@ h1.navbar-brand {
     transition: .2s
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
     margin: 0 !important;
     color: var(--highlight-color) !important;
     padding: 0 !important
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-inverse .navbar-nav > li > a:hover {
     color: var(--primary-color) !important
 }
 
-.navbar-default .navbar-nav > li {
+.navbar-inverse .navbar-nav > li {
     font-size: 16px;
     margin: 30px 20px 0;
     padding: 5px 10px;
@@ -320,16 +307,15 @@ h1.navbar-brand {
     position: relative
 }
 
-.navbar-default .navbar-nav > li > a.active {
+.navbar-inverse .navbar-nav > li > a.active {
     color: var(--primary-color) !important;
-    background: 0
 }
 
 .tona-header {
     background-color: var(--light-background);
-    height: 10vh;
+    height: 15vh;
     width: 100%;
-    position: relative;
+    position: fixed;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     overflow-x: hidden !important
 }
@@ -472,13 +458,6 @@ h1.navbar-brand {
     margin-bottom: 30px
 }
 
-.skills .skills-progress {
-    width: 100%;
-    height: 2px;
-    background: #eee;
-    margin: 15px 0 0
-}
-
 .skills-progress span {
     width: 0;
     height: 100%;
@@ -535,47 +514,6 @@ h1.navbar-brand {
 
 .services-items .item h5 {
     margin: 20px 0
-}
-
-.owl-theme .owl-dots .owl-dot span {
-    width: 20px;
-    height: 4px;
-    border-radius: 0
-}
-
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-    background: #c49b66
-}
-
-#work {
-    overflow: hidden
-}
-
-#work .filtering a {
-    padding: 0 25px 0 20px;
-    font-size: 16px;
-    position: relative;
-    cursor: pointer
-}
-
-#work .filtering .active, .filtering a:hover {
-    color: #c49b66
-}
-
-#work .filtering a:after {
-    content: "-";
-    color: #111;
-    position: absolute;
-    right: 0;
-    top: 0
-}
-
-#work .filtering a:last-child:after {
-    content: " "
-}
-
-.work.section-padding {
-    padding: 35px 0
 }
 
 .hire {
@@ -844,41 +782,6 @@ h1.navbar-brand {
     color: #d4d4d4
 }
 
-.komhead h4 {
-    position: relative;
-    z-index: 2;
-    height: 38px;
-    color: #fff;
-    padding: 0 12px;
-    background-color: #444;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 38px;
-    margin-bottom: 30px;
-    box-shadow: 6px 6px 0 #e9e9e9
-}
-
-.komhead h4:before {
-    content: "";
-    border-top: 12px solid #e9e9e9;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    position: absolute;
-    bottom: -16px;
-    left: 30px
-}
-
-.komhead h4:after {
-    content: "";
-    border-top: 12px solid #444;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    position: absolute;
-    bottom: -12px;
-    left: 20px
-}
-
 @media screen and (max-device-width: 480px) {
     .comments .comments-content .comment-replies {
         margin-left: 0
@@ -902,7 +805,7 @@ h2.date-header {
         font-size: 25px !important
     }
 
-    .nav-scroll .navbar-brand {
+.navbar-brand {
         font-size: 28px !Important;
         line-height: 25px !Important
     }
@@ -1059,22 +962,22 @@ h2.date-header {
 }
 
 @media (max-width: 767px) {
-    .navbar-default .navbar-toggle {
+    .navbar-inverse .navbar-toggle {
         background: 0;
         margin-top: 24px;
         border: 0;
         margin-right: 20px
     }
 
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
         background: 0
     }
 
-    .navbar-default .navbar-toggle .icon-bar {
+    .navbar-inverse .navbar-toggle .icon-bar {
         background: #c49b66
     }
 
-    .navbar-default .navbar-collapse {
+    .navbar-inverse .navbar-collapse {
         text-align: center;
         border: 0;
         background: #111;
