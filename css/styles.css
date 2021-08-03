@@ -61,6 +61,16 @@ p {
     font-family: var(--text-font);
 }
 
+p a {
+    color: var(--highlight-color);
+    font-weight: 500;
+}
+
+p a:hover {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
 .tc-title {
     font-weight: 400;
     margin-bottom: 30px;
