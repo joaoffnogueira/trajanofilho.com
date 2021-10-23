@@ -50,10 +50,6 @@ span {
     clear: both
 }
 
-.no-padding {
-    padding: 0 !important
-}
-
 p {
     line-height: 1.8;
     font-size: 16px;
@@ -125,39 +121,8 @@ p a:hover {
     color: #fff !important
 }
 
-.profile-btns {
-    float: right
-}
-
-a.about-button {
-    display: inline-block;
-    padding: 12px 10px;
-    background: #333;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 40px;
-    width: 140px;
-    text-align: center;
-    font-size: 12px;
-    margin-right: 10px;
-    -webkit-transition: .4s;
-    font-weight: 700;
-    transition: .4s;
-    font-family: var(--text-font)
-}
-
-a.about-button:hover {
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-    -webkit-transition: .4s;
-    transition: .4s
-}
-
 .profile-btns a:last-child {
     background: var(--highlight-color)
-}
-
-.bio .social-icon {
-    float: left
 }
 
 .navbar-light {
@@ -244,11 +209,6 @@ h1.navbar-brand {
     border: 1px solid #eee
 }
 
-.bio .skills {
-    margin: -30px 0 0;
-    padding: 8vh 0 8vh 0;
-}
-
 .hero-img img {
     border-radius: 270px;
     width: 440px;
@@ -262,11 +222,6 @@ h1.navbar-brand {
     font-size: 35px;
     color: var(--primary-color);
     margin-bottom: 30px
-}
-
-.destaques {
-    padding: 50px 0;
-    background-color: var(--light-background)
 }
 
 .destaques .num-items span {
@@ -284,33 +239,6 @@ h1.navbar-brand {
     color: var(--secondary-color)
 }
 
-.services {
-    padding: 8vh 0 8vh 0;
-    scroll-margin-top: 4em;
-}
-
-.services-items {
-    overflow: hidden
-}
-
-.services-items {
-    display: grid;
-    grid: 100% / 33% 33% 33%;
-}
-
-.services .services-items:first-child {
-    border-bottom: 1px solid #eee
-}
-
-.services-items .item {
-    padding: 40px
-}
-
-.services-items .bord {
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee
-}
-
 .services-items .item span {
     font-size: 40px;
     color: var(--primary-color)
@@ -318,11 +246,6 @@ h1.navbar-brand {
 
 .services-items .item h5 {
     margin: 20px 0
-}
-
-.blog {
-    padding: 8vh 0 8vh 0;
-    scroll-margin-top: 4em;
 }
 
 .contato {
@@ -349,15 +272,6 @@ h1.navbar-brand {
 
 .contato button:hover {
     background: var(--primary-color)
-}
-
-.work .item {
-    margin-top: 5px;
-    position: relative;
-    height: 280px;
-    overflow: hidden;
-    background: #000;
-    cursor: pointer
 }
 
 .work .item img {
@@ -402,10 +316,7 @@ h1.navbar-brand {
         font-size: 15px !Important;
         line-height: 25px !Important
     }
-    .services-items {
-        display: flex;
-        flex-direction: column;
-    }
+
 }
 
 @media only screen and (max-width: 1350px) {
@@ -420,9 +331,6 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-area .container {
-        width: 100%
-    }
 
     .nav > li {
         padding: 0
@@ -434,18 +342,11 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 1000px) {
-    .header-area {
-        text-align: center
-    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-nav li a {
         padding: 15px 6px
-    }
-
-    .me-image {
-        text-align: center
     }
 
     .portfolio-caption h4 {
@@ -454,14 +355,6 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar-toggle .icon-bar {
-        background: #333
-    }
-
-    .navbar-toggle {
-        margin-right: 0;
-        margin-top: -30px
-    }
 
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         background: #1b1b1b
@@ -481,14 +374,6 @@ h1.navbar-brand {
 
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 420px
-    }
-
-    .navbar-toggle {
-        margin-top: -41px
-    }
-
-    a.about-button {
-        margin-top: 0
     }
 
     .cd-headline span {
@@ -513,10 +398,6 @@ h1.navbar-brand {
         font-size: 20px
     }
 
-    .contact_image .overlay .contact_info .item:nth-of-type(1), .contact_image .overlay .contact_info .item:nth-of-type(2) {
-        margin-bottom: 0 !important
-    }
-
     .hero-img {
         width: 75%;
         text-align: center;
@@ -530,11 +411,6 @@ h1.navbar-brand {
 }
 
 @media screen and (max-width: 960px) {
-    .main-wrapper {
-        margin-right: 0;
-        width: 100%;
-        padding: 0
-    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -542,37 +418,9 @@ h1.navbar-brand {
         border: 0 !important
     }
 
-    .some_stats_section .items .item {
-        transform: scale(1) !important
-    }
-
-    .bio .social-icon {
-        float: none !important;
-        text-align: center;
-        margin-bottom: 15px
-    }
-
-    .profile-btns {
-        float: none !important;
-        text-align: center
-    }
 }
 
 @media (max-width: 767px) {
-    .navbar-light .navbar-toggle {
-        background: 0;
-        margin-top: 24px;
-        border: 0;
-        margin-right: 20px
-    }
-
-    .navbar-light .navbar-toggle:hover, .navbar-light .navbar-toggle:focus {
-        background: 0
-    }
-
-    .navbar-light .navbar-toggle .icon-bar {
-        background: var(--primary-color)
-    }
 
     .navbar-light .navbar-collapse {
         text-align: center;
@@ -585,10 +433,6 @@ h1.navbar-brand {
         font-size: 20px
     }
 
-    .hero-img, .skill-items, .num-items, .rel-img {
-        margin-bottom: 80px
-    }
-
     .portfolio .filtering span {
         padding: 0 15px 0 10px
     }
@@ -597,20 +441,9 @@ h1.navbar-brand {
         letter-spacing: 2px
     }
 
-    .side-bar {
-        padding: 20px;
-        margin: auto 15px
-    }
 }
 
 @media (max-width: 991px) {
-    .portfolio .item-img {
-        width: 100%
-    }
-
-    .blog .post {
-        margin-bottom: 30px
-    }
 
     .date-outer .item a.electo h2 {
         max-width: 110px

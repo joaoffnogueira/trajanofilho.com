@@ -50,10 +50,6 @@ span {
     clear: both
 }
 
-.no-padding {
-    padding: 0 !important
-}
-
 p {
     line-height: 1.8;
     font-size: 16px;
@@ -306,11 +302,6 @@ h1.navbar-brand {
     padding: 40px
 }
 
-.services-items .bord {
-    border-right: 1px solid #eee;
-    border-left: 1px solid #eee
-}
-
 .services-items .item span {
     font-size: 40px;
     color: var(--primary-color)
@@ -420,9 +411,6 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-area .container {
-        width: 100%
-    }
 
     .nav > li {
         padding: 0
@@ -434,18 +422,11 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 1000px) {
-    .header-area {
-        text-align: center
-    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .navbar-nav li a {
         padding: 15px 6px
-    }
-
-    .me-image {
-        text-align: center
     }
 
     .portfolio-caption h4 {
@@ -454,14 +435,6 @@ h1.navbar-brand {
 }
 
 @media only screen and (max-width: 767px) {
-    .navbar-toggle .icon-bar {
-        background: #333
-    }
-
-    .navbar-toggle {
-        margin-right: 0;
-        margin-top: -30px
-    }
 
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         background: #1b1b1b
@@ -481,10 +454,6 @@ h1.navbar-brand {
 
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
         max-height: 420px
-    }
-
-    .navbar-toggle {
-        margin-top: -41px
     }
 
     a.about-button {
@@ -530,11 +499,6 @@ h1.navbar-brand {
 }
 
 @media screen and (max-width: 960px) {
-    .main-wrapper {
-        margin-right: 0;
-        width: 100%;
-        padding: 0
-    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -559,20 +523,6 @@ h1.navbar-brand {
 }
 
 @media (max-width: 767px) {
-    .navbar-light .navbar-toggle {
-        background: 0;
-        margin-top: 24px;
-        border: 0;
-        margin-right: 20px
-    }
-
-    .navbar-light .navbar-toggle:hover, .navbar-light .navbar-toggle:focus {
-        background: 0
-    }
-
-    .navbar-light .navbar-toggle .icon-bar {
-        background: var(--primary-color)
-    }
 
     .navbar-light .navbar-collapse {
         text-align: center;
@@ -585,10 +535,6 @@ h1.navbar-brand {
         font-size: 20px
     }
 
-    .hero-img, .skill-items, .num-items, .rel-img {
-        margin-bottom: 80px
-    }
-
     .portfolio .filtering span {
         padding: 0 15px 0 10px
     }
@@ -597,20 +543,9 @@ h1.navbar-brand {
         letter-spacing: 2px
     }
 
-    .side-bar {
-        padding: 20px;
-        margin: auto 15px
-    }
 }
 
 @media (max-width: 991px) {
-    .portfolio .item-img {
-        width: 100%
-    }
-
-    .blog .post {
-        margin-bottom: 30px
-    }
 
     .date-outer .item a.electo h2 {
         max-width: 110px
