@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #114752;
-    --secondary-color: #262626;
-    --highlight-color: #F04A29;
+    --primary-color: #01758E;
+    --secondary-color: #A86354;
+    --highlight-color: #FFA521;
     --light-background: #E7E7E7;
     --title-font: 'Montserrat', sans-serif;
     --text-font: 'Nunito', sans-serif;
@@ -34,8 +34,23 @@ img {
     height: auto
 }
 
-h1, h2, h3 {
-    font-weight: 700
+h1 {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 h6 {
@@ -48,6 +63,10 @@ span {
 
 .clear-fix {
     clear: both
+}
+
+.content {
+    margin-top: 10px;
 }
 
 p {
@@ -65,6 +84,10 @@ p a {
 p a:hover {
     color: var(--primary-color);
     font-weight: 500;
+}
+
+.logo {
+    width: 100px;
 }
 
 .tc-title {
@@ -125,41 +148,6 @@ p a:hover {
     background: var(--highlight-color)
 }
 
-.navbar-light {
-    padding: 20px 0 30px;
-    background: 0;
-    border: 0;
-    border-radius: 0;
-    z-index: 9;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%
-}
-
-.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    font-weight: 600;
-    font-size: 2.5vw;
-    color: var(--primary-color)
-}
-
-.navbar-brand {
-    padding: 4px 0;
-    font-size: 18px;
-    line-height: 20px;
-    display: inline-block;
-    text-transform: uppercase
-}
-
-.navbar-brand {
-    font-size: 40em;
-    padding: 5px 0
-}
-
-h1.navbar-brand {
-    transition: .2s
-}
-
 .navbar-light .navbar-nav > li > a {
     margin: 0 !important;
     color: var(--highlight-color) !important;
@@ -178,19 +166,6 @@ h1.navbar-brand {
     background: 0;
     cursor: pointer;
     position: relative
-}
-
-.navbar-light .navbar-nav > li > a.active {
-    color: var(--primary-color) !important;
-}
-
-.faixa-header {
-    background-color: var(--light-background);
-    height: 15vh;
-    width: 100%;
-    position: fixed;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    overflow-x: hidden !important
 }
 
 .bio {
@@ -248,12 +223,6 @@ h1.navbar-brand {
     margin: 20px 0
 }
 
-.contato {
-    background-color: var(--light-background);
-    padding: 8vh 0;
-    scroll-margin-top: 4em;
-}
-
 .contato h3 {
     letter-spacing: 2px;
     font-weight: 100;
@@ -285,7 +254,6 @@ h1.navbar-brand {
 }
 
 .contactFooter {
-    background-color: var(--light-background);
     padding: 35px 0 30px;
     color: #fdfdfd
 }
@@ -312,17 +280,9 @@ h1.navbar-brand {
         width: 100% !Important
     }
 
-    .navbar-brand {
-        font-size: 15px !Important;
-        line-height: 25px !Important
-    }
-
 }
 
 @media only screen and (max-width: 1350px) {
-    .navbar-brand {
-        margin-left: 25px !important
-    }
 
     .hero-img img {
         width: 100% !important;
@@ -356,24 +316,12 @@ h1.navbar-brand {
 
 @media only screen and (max-width: 767px) {
 
-    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-        background: #1b1b1b
-    }
-
-    .navbar {
-        min-height: 0
-    }
-
     .mainmenu .navbar-nav li a {
         padding: 11px 15px
     }
 
     .menu-bg .mainmenu .navbar-nav li a {
         padding: 11px 15px
-    }
-
-    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-        max-height: 420px
     }
 
     .cd-headline span {
@@ -383,11 +331,6 @@ h1.navbar-brand {
     .header-text h3 {
         font-size: 40px;
         letter-spacing: 3px
-    }
-
-    .navbar-nav {
-        float: none;
-        text-align: center
     }
 
     .navbar-nav li a:before {
@@ -421,13 +364,6 @@ h1.navbar-brand {
 }
 
 @media (max-width: 767px) {
-
-    .navbar-light .navbar-collapse {
-        text-align: center;
-        border: 0;
-        background: var(--light-background);
-        margin-top: 0 !important
-    }
 
     .bio .hero-item h4 {
         font-size: 20px
