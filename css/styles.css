@@ -29,11 +29,6 @@ body {
     overflow-x: hidden;
 }
 
-img {
-    width: 100%;
-    height: auto
-}
-
 h1 {
     font-weight: 700;
     color: var(--primary-color);
@@ -69,6 +64,18 @@ span {
     margin-top: 10px;
 }
 
+.btn-outline-primary {
+    color: var(--primary-color);
+    background-color: #fff;
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
 p {
     line-height: 1.8;
     font-size: 16px;
@@ -87,7 +94,9 @@ p a:hover {
 }
 
 .logo {
-    width: 100px;
+    width: 80%;
+    max-width: 400px;
+    margin: 70px auto 70px auto;
 }
 
 .tc-title {
@@ -260,18 +269,18 @@ p a:hover {
 
 .footerLeft {
     font-size: 14px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: 100;
     text-align: center
 }
 
 .footerLeft a {
-    color: var(--highlight-color);
+    color: var(--primary-color);
     font-weight: 500;
 }
 
 .footerLeft a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 500;
 }
 
