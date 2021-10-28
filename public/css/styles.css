@@ -56,6 +56,10 @@ span {
     display: inline-block
 }
 
+.clear-fix {
+    clear: both
+}
+
 .content {
     margin-top: 10px;
 }
@@ -75,7 +79,11 @@ span {
 p {
     line-height: 1.8;
     font-size: 16px;
-    color: var(--primary-color);
+    color: black;
+    font-family: var(--text-font);
+}
+
+li {
     font-family: var(--text-font);
 }
 
@@ -129,26 +137,6 @@ p a:hover {
     background: var(--highlight-color)
 }
 
-.navbar-light .navbar-nav > li > a {
-    margin: 0 !important;
-    color: var(--highlight-color) !important;
-    padding: 0 !important
-}
-
-.navbar-light .navbar-nav > li > a:hover {
-    color: var(--primary-color) !important
-}
-
-.navbar-light .navbar-nav > li {
-    font-size: 16px;
-    margin: 30px 20px 0;
-    padding: 5px 10px;
-    font-weight: 400;
-    background: 0;
-    cursor: pointer;
-    position: relative
-}
-
 .bio .social-icon span {
     width: 40px;
     height: 40px;
@@ -159,8 +147,8 @@ p a:hover {
 
 .hero-img img {
     border-radius: 270px;
-    width: 440px;
-    height: 440px;
+    width: 80%;
+    max-width: 400px;
     object-fit: cover;
     box-shadow: 0 0 0 5px var(--primary-color);
     border: 5px solid #fff
@@ -246,103 +234,4 @@ p a:hover {
 .footerLeft a:hover {
     color: var(--secondary-color);
     font-weight: 500;
-}
-
-@media only screen and (max-width: 768px) {
-
-}
-
-@media only screen and (max-width: 1350px) {
-
-    .hero-img img {
-        width: 100% !important;
-        height: inherit !important
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-
-    .nav > li {
-        padding: 0
-    }
-
-    .navbar-nav li a {
-        padding: 15px 6px
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .navbar-nav li a {
-        padding: 15px 6px
-    }
-
-    .portfolio-caption h4 {
-        margin-top: 80px
-    }
-}
-
-@media only screen and (max-width: 767px) {
-
-    .mainmenu .navbar-nav li a {
-        padding: 11px 15px
-    }
-
-    .menu-bg .mainmenu .navbar-nav li a {
-        padding: 11px 15px
-    }
-
-    .cd-headline span {
-        font-size: 12px
-    }
-
-    .header-text h3 {
-        font-size: 40px;
-        letter-spacing: 3px
-    }
-
-    .navbar-nav li a:before {
-        display: none
-    }
-
-    .section-title h2 {
-        font-size: 20px
-    }
-
-}
-
-@media screen and (max-width: 960px) {
-}
-
-@media only screen and (max-width: 650px) {
-    .date-outer .item figcaption::before {
-        border: 0 !important
-    }
-
-}
-
-@media (max-width: 767px) {
-
-    .bio .hero-item h4 {
-        font-size: 20px
-    }
-
-    .portfolio .filtering span {
-        padding: 0 15px 0 10px
-    }
-
-    .blog .to-blog p {
-        letter-spacing: 2px
-    }
-
-}
-
-@media (max-width: 991px) {
-
-    .date-outer .item a.electo h2 {
-        max-width: 110px
-    }
-
 }
