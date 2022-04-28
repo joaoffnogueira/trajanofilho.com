@@ -1,7 +1,7 @@
 <div align="center">
-      <h1> <img src="https://trajanoadv.info/image/logo.svg" width="80px"><br/>Trajano S. Filho law firm webpage</h1>
+      <h1> <img src="https://trajanofilho.com/image/logo.png" width="80px"><br/>Trajano S. Filho law firm webpage</h1>
      </div>
-<p align="center"> <a href="https://trajanoadv.info/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/joaoffnogueira/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
+<p align="center"> <a href="https://trajanofilho.com/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/joaoffnogueira/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
 # Description
 
@@ -21,4 +21,4 @@ Apesar do meu foco em desenvolvimento mobile, um parente que trabalha em um escr
       
 <!-- </> with 💛 by readMD (https://readmd.itsvg.in) -->
 
-:earth_americas: [Live version](https://trajanoadv.info/)
+:earth_americas: [Live version](https://trajanofilho.com/)
